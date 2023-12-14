@@ -1,8 +1,12 @@
 print("adding all the data processing")
 print("New line")
 a = 5
-b = 7
+b = 6
 def sum(a,b):
     c = a+b
-    return a
-print ("New add function not correct")
+    return c
+
+def multiply(a,b):
+    c = a*b
+    return c
+print("sum and multiply func added")
